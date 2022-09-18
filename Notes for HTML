@@ -6,7 +6,11 @@
 6. H1 can only be used once in a HTML file
 7. Strong, abbr(abbriveations), em(emphasize) are few elements used to emphasize or bold the text between their tags
 8. Links can be attached to the html page in multiple ways:
+Anchor tag "<a></a>" is used for adding links or images
 (i) Absolute Link reference where the link is from outside our project or on the web. link can be copied and linked
 (ii) Relative Links are those which are files present in same folder as our project they can be directly linked by typing the name and extension
-(iii)
+(iii) A link to different section on the same page. It refers to a section inside the page or internal reference.
+We do that using sections tag along with ID attribute for reference.
 NOTE: All the links syntax is identical to follow: <a href="link" >text to be clicked upon for accessing link</a>
+Sections need to have Headings nested inside of them.
+<nav></nav> tags are used to create navigation bar for the use of internal link reference.

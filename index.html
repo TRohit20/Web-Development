@@ -16,11 +16,22 @@
 
 <body>
     <!-- The data that appears on the page lies here! -->
+    
     <!-- "H_no"is used as a heading element.  -->
     <h1>
         <!-- There can only be ONE H1 per page. It should say what the page is about! -->
         Hey guys, this is my first webpage!
     </h1>
+    <hr>
+    <nav> 
+        <!-- Synatx for internal refernce link: -->
+        <!-- Create a list and add links as items of list -->
+        <ul>
+            <li><a href="#points">Few mentions</a></li>
+            <li><a href="#lists">Lists demonstration</a></li>
+        </ul>
+    </nav>
+<hr>
     <!-- a with href attritubute is used to add links to webpages from anywhere -->
     <!-- The below is an example of absolute link which means the file or link is not ours. -->
     <h2>You can checkout my <a href="https://github.com/TRohit20">Github</a>  profile</h2>
@@ -28,9 +39,10 @@
     <!-- 'hr' is a tag used to add horizontal lines -->
     <hr>
     <!-- The H2,3,4.. can be used as sub topics or para or nested sub topics headers. -->
-    <h2> 
+    <section title="points"> <h2> 
         I'm ready to learn different things about Front end development
     </h2>
+    
         <br>Commiting to the regime
         <p>Regime being mastering Frontend:
             <!-- 'br' is used to create brakes or white spaces as html has white spaces collapse. -->
@@ -40,9 +52,9 @@
             <br> <abbr title="Cascading Styling Sheet"> CSS </abbr>
             <br>And some of the Javascript frameworks
         </p>
-   
+    </section>
     <!-- headers are used to mention topics or antic importance then paras can have anu info regards to them -->
-    <p>
+    <section id="lists"> <h2>Below are some demonstrations</h2> <p>
         <!-- This is the paragraoh element  -->
         Trying out different elements of the web page
         <!-- Adding different types of lists -->
@@ -63,7 +75,7 @@
             <dt>Sravani,Karthik,Madhu </dt>
             <dd>These are siblings of rohit that he absolutely loves and adores.</dd>
         </dl>
-   
+    </section>
     <hr>
     <h2> 
         <!-- 'em' stands for emphasize and 'strong' is used to showcase the stress or empahsize of the text -->
