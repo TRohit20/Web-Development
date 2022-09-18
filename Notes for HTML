@@ -14,3 +14,13 @@ We do that using sections tag along with ID attribute for reference.
 NOTE: All the links syntax is identical to follow: <a href="link" >text to be clicked upon for accessing link</a>
 Sections need to have Headings nested inside of them.
 <nav></nav> tags are used to create navigation bar for the use of internal link reference.
+anchor tag with # is used as a internal link to point back to the top.
+
+LINK NAMING CONVENTIONS:
+Avoid printing full website links, instead use abbriveations like a short name
+Avoid "links to" phrase
+Keep the link text as shorrt as possible. Topic not sentences
+Never use "Click here", rather use topics.
+
+A link to downlaod a file we have can be given by anchor tag along with download attribute
+Cannot have download or links inside dl or dd 
