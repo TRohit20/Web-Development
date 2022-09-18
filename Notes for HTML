@@ -29,4 +29,15 @@ Cannot have download or links inside dl or dd
 Next up: 
 ADDING IMAGES TO HTML Files.(Using the img tag)
 The syntax is as given below: Img tag does not have a ending tag or it ends with /> which means it is self closing(not required in HTML5).
-<img src="" alt""> , here: src refers to the source of the image and 'alt' is a text reference in case of image not being viewed or loaded.
+<img src="" alt"" title="" width="" height="" loading="">  here: src refers to the source of the image and 'alt' is a text reference in case of image not being viewed or loaded.
+Attributes are key to adding a image. the above is syntax for relative linking of the image.
+Loading attribute should be provided when required or by defaulft it is set to being eager.
+Lazy is given as loading attribute in case when the image needs to be loaded only when it needs to be demonstrated.
+Using lazy is a good technique when you are using a lot of images on your webpage 
+A QUICK TIP:
+Instead of typing br multiple times just time br*nooftimes you want it.
+Now "Figure" is a new element can be used to wrap around image. SYNTAX:
+<!-- <figure> image is inside the figure elemt and we add a caption related to the image. it is directly related to the image inside.
+we add the caption using FIGCAPTION element</figure> -->
+<figure>img <figcaption> caption realted to the image goes here </figcaption></figure>
+A FIGCAPTION can either the first thing or the last thing inside a figure element 
