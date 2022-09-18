@@ -1,3 +1,5 @@
+Very Important NOTE: A SINGLE ERROR CAN LEAD TO A CASCADE OF ERRORS
+
 1.head elements cannot have elements like p inside of them
 2. There are 3 different types of lists: ordered, unordered, Descriptive
 3. two parts to a HTMl: Head(data that cannot be seen except for the title) and Body(Contains data that is visible on the site)
@@ -24,3 +26,7 @@ Never use "Click here", rather use topics.
 
 A link to downlaod a file we have can be given by anchor tag along with download attribute
 Cannot have download or links inside dl or dd 
+Next up: 
+ADDING IMAGES TO HTML Files.(Using the img tag)
+The syntax is as given below: Img tag does not have a ending tag or it ends with /> which means it is self closing(not required in HTML5).
+<img src="" alt""> , here: src refers to the source of the image and 'alt' is a text reference in case of image not being viewed or loaded.
