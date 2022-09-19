@@ -41,3 +41,18 @@ Now "Figure" is a new element can be used to wrap around image. SYNTAX:
 we add the caption using FIGCAPTION element</figure> -->
 <figure>img <figcaption> caption realted to the image goes here </figcaption></figure>
 A FIGCAPTION can either the first thing or the last thing inside a figure element 
+Next Up: SEMANTIC TAGS: 
+Hierachy of headers: only one H1 per page! H1>2>3 etc
+Nav is another semantic link that allows us to see different links 
+HR is used to topic change
+3 main areas :
+1.Header for the page(heading), they can be more than 1 header per page.
+2. Main element: There can only be 1 main element/page. It usually contents the main area of content 
+3. Footer is another element that can more than one in a web. It is a footer to the page.
+These three semantics make it easy to divide the page into sections.
+There can be more than one Nav tag per page but in this case they should be labelled. Using a attribute: aria-label=""
+More appropriate tag to break topics than sections for articles or blogs are "article" element.
+Article has a clear topic while section can be generic 
+You can nest a section or put a section inside a Article
+Another semantic element can be 'aside' it is a sidebar which is content but not as important. It is complimentary text. 
+The details summary work together
