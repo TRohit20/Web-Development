@@ -56,3 +56,9 @@ Article has a clear topic while section can be generic
 You can nest a section or put a section inside a Article
 Another semantic element can be 'aside' it is a sidebar which is content but not as important. It is complimentary text. 
 The details summary work together
+Another semantic element is called "mark" which is used to highlight the text between its tags
+We can also use "time" semantic elemtn to add some meaning any time stamps on webpage. Using it does not change anything visually but it adds semantic meaning.
+Also, it is worth noting that you can use paragraphs and lists under description elements
+Two elements that are better to be avoided when learning HTML but better to use when using CSS,they are: Div and Span
+These are mostly used for CSS styling
+Div stands for divider and it is very much the same as section element, they are blovk elements so using them means having to add many attributes to give it meaning and make it understandable for softwares
