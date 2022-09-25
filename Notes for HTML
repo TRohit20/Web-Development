@@ -84,3 +84,7 @@ And to add a heading to columns of our table, we use a element or tag called "th
      Above is a general syntax.
      Tables usually require CSS to look like a actual table and make it look appealing.
 Tables does not take up the full width of the page automatically. Unlike other elements such as lists or paragraphs etc.
+WHAT IF YOU WANT A ROW WHICH HAS ONE CELL THAT NEEDS MORE THAN ONE COLUMN?
+We can do that by adding a attribute to 'td' element.
+The attribute is called 'colspan'
+Similarly, We can do it for rows using 'rowspan' element in the 'td' element.
