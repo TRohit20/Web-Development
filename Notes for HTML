@@ -72,7 +72,11 @@ table element/tag to create the table, can be used inside a section or individua
 Inside the Table row,we put our data cells using 'td' elements.
 'td' stands for Table Data
 You need a heading for every section.
-<!-- <table> 
+And to add a heading to columns of our table, we use a element or tag called "th" which stands for Table Header
+
+<!-- <table>
+<th> Time</th>
+<th> Activity During that Time</th> 
 <tr> 
  <td> You can put your information here such as time or any information </td>
  </tr>
