@@ -79,3 +79,4 @@ You need a heading for every section.
      </table> -->
      Above is a general syntax.
      Tables usually require CSS to look like a actual table and make it look appealing.
+Tables does not take up the full width of the page automatically. Unlike other elements such as lists or paragraphs etc.
