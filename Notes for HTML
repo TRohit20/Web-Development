@@ -88,3 +88,8 @@ WHAT IF YOU WANT A ROW WHICH HAS ONE CELL THAT NEEDS MORE THAN ONE COLUMN?
 We can do that by adding a attribute to 'td' element.
 The attribute is called 'colspan'
 Similarly, We can do it for rows using 'rowspan' element in the 'td' element.
+You can add semantics to tables too like captions
+Using caption inside table makes it a heading without requiring to use colspan.
+'thead' is another element that is used to give the headers or column headings of the table. It does not change any looks but it adds semantic 
+Similar to it, is 'tbody' it is used to cover the body elements or basically the information rows of the table.
+You can also add a 'tfoot' section to add a footer to the table.
