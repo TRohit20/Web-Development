@@ -93,3 +93,7 @@ Using caption inside table makes it a heading without requiring to use colspan.
 'thead' is another element that is used to give the headers or column headings of the table. It does not change any looks but it adds semantic 
 Similar to it, is 'tbody' it is used to cover the body elements or basically the information rows of the table.
 You can also add a 'tfoot' section to add a footer to the table.
+We can add headings to the rows too using the th inside tr.
+Some more semantics to keep in mind are:
+We goto headings and give the 'scope' of the headings as in what the headings are for eg rows or columns.
+We add it as attribute to the headings

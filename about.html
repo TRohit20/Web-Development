@@ -37,12 +37,16 @@
     <h2>Rohit's Schedule </h2>
     <table>
         <caption>During the Weekdays</caption>
-        <thead><tr>
-        <th>Time</th>
-        <th>Activity during that time</th>
-        </tr></thead>
+        <thead>
+            <tr>
+            <th> &nbsp;</th>  <!-- &nbsp; is just a element gives space -->
+            <th scope="col">Time</th>
+            <th scope="col">Activity during that time</th> 
+            </tr>
+        </thead>
         <tbody>
         <tr>
+            <th scope="row">Morning</th>
             <td> <time datetime="09:00">9 AM IST</time>
             </td>
             <td> Wakes up </td>
@@ -53,10 +57,12 @@
             <td>Get clean, Fresh up and get breakfast</td>
         </tr>
         <tr>
+            <th scope="row">Post Morning</th>
             <td> <time datetime="10:00">10 AM IST</time> - <time datetime="13:00"> 1 PM IST</time></td>
             <td> Studies and works on side projects</td>
         </tr>
         <tr>
+            <th scope="row">Evening</th>
             <td rowspan="2"> Rest of day</td>
         </tr>
         <tr>
@@ -64,8 +70,8 @@
         </tr>
     </tbody>
     <tfoot>
-        <td colspan="2">This footer is best to use for sumation totals or final statements Like</td>
-        <td colspan="2"> So, this is what Rohit does during the weekdays.</td>
+        <td colspan="3">This footer is best to use for sumation totals or final statements Like</td>
+        <td colspan="3"> So, this is what Rohit does during the weekdays.</td>
     </tfoot>
     </table>
 </section>
