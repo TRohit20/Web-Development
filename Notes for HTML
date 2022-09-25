@@ -62,3 +62,7 @@ Also, it is worth noting that you can use paragraphs and lists under description
 Two elements that are better to be avoided when learning HTML but better to use when using CSS,they are: Div and Span
 These are mostly used for CSS styling
 Div stands for divider and it is very much the same as section element, they are blovk elements so using them means having to add many attributes to give it meaning and make it understandable for softwares
+CREATING TABLES:
+Some use cases of tables are schedules display, display of data in rows and columns, statistics and scores.
+When to avoid using tables ? To design or structure the entire page data.
+Tables need CSS usually to make it look appealing 
