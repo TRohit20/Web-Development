@@ -65,4 +65,14 @@ Div stands for divider and it is very much the same as section element, they are
 CREATING TABLES:
 Some use cases of tables are schedules display, display of data in rows and columns, statistics and scores.
 When to avoid using tables ? To design or structure the entire page data.
-Tables need CSS usually to make it look appealing 
+Tables need CSS usually to make it look appealing. 
+Syntax to add a table:
+table element/tag to create the table, can be used inside a section or individually too.
+'tr' element stands for Table Row.
+Inside the Table row,we put our data cells using 'td' elements.
+'td' stands for Table Data
+<!-- <table> 
+<tr> 
+ <td> You can put your information here such as time or any information </td>
+ </tr>
+     </table> -->
