@@ -71,6 +71,7 @@ table element/tag to create the table, can be used inside a section or individua
 'tr' element stands for Table Row.
 Inside the Table row,we put our data cells using 'td' elements.
 'td' stands for Table Data
+You need a heading for every section.
 <!-- <table> 
 <tr> 
  <td> You can put your information here such as time or any information </td>
