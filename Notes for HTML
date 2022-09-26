@@ -99,3 +99,9 @@ We goto headings and give the 'scope' of the headings as in what the headings ar
 We add it as attribute to the headings
 THERE is another way you can do that by adding a ID attribute to th and header attribute to td. but it is better to use just Scope instead.
 SEMANTICS NEVER CHANGE THE LOOK BUT ADD SENSE TO HTML
+Next:
+Making HTML interactive by letting the users of HTML send us information using forms.
+It allows users to give inputs and that is given to us if they choose to.
+We add a FORM to the HTML using the 'form' tag along with action attribute and method attribute:
+<!-- <form action="usually mention your own server" method="get"> </form> -->
+Method can either be get or post
