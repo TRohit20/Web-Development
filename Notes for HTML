@@ -97,3 +97,5 @@ We can add headings to the rows too using the th inside tr.
 Some more semantics to keep in mind are:
 We goto headings and give the 'scope' of the headings as in what the headings are for eg rows or columns.
 We add it as attribute to the headings
+THERE is another way you can do that by adding a ID attribute to th and header attribute to td. but it is better to use just Scope instead.
+SEMANTICS NEVER CHANGE THE LOOK BUT ADD SENSE TO HTML
