@@ -105,3 +105,12 @@ It allows users to give inputs and that is given to us if they choose to.
 We add a FORM to the HTML using the 'form' tag along with action attribute and method attribute:
 <!-- <form action="usually mention your own server" method="get"> </form> -->
 Method can either be get or post
+Content of Forms are mostly either label and inputs.
+Each input should have a label
+Label should have a 'for' attribute.
+The 'For' attribute value should match the ID value of input
+
+<!-- Syntax for label and input :
+<label for="Same ID value as the input"> </label>
+<input type="" name="How it identified on server side" id="same as label" placeholer="This displays the text here but only as sample."> -->
+PlaceHolder just holds the example data for user reference.
