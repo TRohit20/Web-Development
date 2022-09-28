@@ -114,3 +114,12 @@ The 'For' attribute value should match the ID value of input
 <label for="Same ID value as the input"> </label>
 <input type="" name="How it identified on server side" id="same as label" placeholer="This displays the text here but only as sample."> -->
 PlaceHolder just holds the example data for user reference.
+Another attribute you can add is "autocomplete", it suggests user input based on previous submissions to the form.
+<!-- Syntax:
+<form action="https://httpbin.org/get" method="get">
+<label for="Message" > You can enter you test here: </label>
+<input type="text" name="hello" id="Message" placeholder="Sample text" autocomplete="on"> -->
+Some more attributes that can be or should be given to input are:
+'required' and 'autofocus'
+Required can 
+Autofocus can only be assigned or as used as attribute for only one element or input on the page.
