@@ -140,3 +140,6 @@ Syntax:
 option is nested inside select element to provide the options or list
 You can use a element called "optgroup" to create or list the options under a certain group
 The label attribute in optgroup is actually visible to the User.
+Another way of presenting the options to user is using the list attribute in input tag and using datalist
+We surround any inputs and labels using fieldset and legend
+Fieldset creates borders or box around the input and legend tag displays what is being given as input or data inside 

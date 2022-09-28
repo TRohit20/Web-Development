@@ -131,9 +131,11 @@
         <label for="birthday"> Enter your Birth Year:</label>
         <input type="number" name="year" id="birthday" min="1965" max="2021" step="1" value="2001">
     </p>
+    <fieldset>
+        <legend> What is your favourite movie?</legend>
     <p>
         <label for="movie">Select your favourite movie:</label>
-        <select name="movie" id="movie">
+        <select name="movie" id="movie" multiple>
             <optgroup label="Telugu">
             <option value="telugu">Jathi ratnalu</option>
             <option value="telugu">Dhee</option>
@@ -151,6 +153,51 @@
         </optgroup>
         </select>
     </p>
+</fieldset>
+<fieldset>
+    <legend>Which country are you from?</legend>
+    <p>
+        <label for="country">Select your Label:</label>
+        <input type="text" name="country" id="country" list="country-list">
+        <datalist id="country-list">
+            <option value="India">
+            <option value="United States">
+            <option value="Afghanistan">
+            <option value="Irikistan">
+            <option value="Dubai">
+        </datalist>
+    </p>
+</fieldset>
+<fieldset>
+    <legend>Favourite Food?</legend>
+    <p>
+        <input type="radio" name="food1" id="taco" value="taco">
+        <label for="taco">Tacos</label>
+    </p>
+    <p>
+        <input type="radio" name="food2" id="burger" value="chicken">
+        <label for="burger">Chicken Burger</label>
+    </p>
+    <p>
+        <input type="radio" name="food3" id="pizza" value="chicken">
+        <label for="pizza">Chicken Pizza</label>
+    </p>
+</fieldset>
+<fieldset>
+    <legend>Favourite pet?</legend>
+    <p>
+        <input type="checkbox" name="pet1" id="dog" value="dog">
+        <label for="dog">Dogs</label>
+    </p>
+    <p>
+        <input type="checkbox" name="pet2" id="cat" value="cat">
+        <label for="cat">Cats</label>
+    </p>
+    <p>
+        <input type="checkbox" name="pet3" id="" value="chicken">
+        <label for="pizza">Chicken Pizza</label>
+    </p>
+</fieldset>
     <p>
         <label for="password">Password:</label>
         <input type="password" name="password" id="password" required>
