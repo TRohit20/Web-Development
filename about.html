@@ -34,48 +34,6 @@
     <li>Or You can ping at: <a href="tel:9900099000">My phone number</a></li>
     <li>Open google <a href="https://www.google.co.in" target="_blank"> in a new tab</a></li>
     </ol>
-<section id="Schedule"> 
-    <h2>Rohit's Schedule </h2>
-    <table>
-        <caption>During the Weekdays</caption>
-        <thead>
-            <tr>
-            <th> &nbsp;</th>  <!-- &nbsp; is just a element gives space -->
-            <th scope="col">Time</th>
-            <th scope="col">Activity during that time</th> 
-            </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <th scope="row">Morning</th>
-            <td> <time datetime="09:00">9 AM IST</time>
-            </td>
-            <td> Wakes up </td>
-        </tr>
-        <tr>
-            <td> <time datetime="09:00">9 AM</time> - <time datetime="10:00">10 AM IST</time>
-            </td>
-            <td>Get clean, Fresh up and get breakfast</td>
-        </tr>
-        <tr>
-            <th scope="row">Post Morning</th>
-            <td> <time datetime="10:00">10 AM IST</time> - <time datetime="13:00"> 1 PM IST</time></td>
-            <td> Studies and works on side projects</td>
-        </tr>
-        <tr>
-            <th scope="row">Evening</th>
-            <td rowspan="2"> Rest of day</td>
-        </tr>
-        <tr>
-            <td>Either Having fun or eating and sleeping</td>
-        </tr>
-    </tbody>
-    <tfoot>
-        <td colspan="3">This footer is best to use for sumation totals or final statements Like</td>
-        <td colspan="3"> So, this is what Rohit does during the weekdays.</td>
-    </tfoot>
-    </table>
-</section>
     <dl>
     <!-- using a in-line semantic element called mark to highlight text or anything -->
     <dt> <mark>Personal information</mark> about ROHIT:</dt>
@@ -92,6 +50,57 @@
    </dl>
 <hr>
 </section>
+<section>
+    <h2>My Daily Schedule:</h2>
+    <table>
+        <caption>My Daily Schedule</caption>
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td>
+                    <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                </td>
+                <td>Write Code</td>
+            </tr>
+            <tr>
+                <th scope="row">Break</th>
+                <td>
+                    <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                </td>
+                <td>Eat Lunch</td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                    <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+                </td>
+                <td>Study for Other Courses</td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2">All Other Times</td>
+                <td>Free Time</td>
+            </tr>
+            <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">And that's what I do every day, 5 days a week. Just eat, sleep, code ..and
+                    recharge!</td>
+            </tr>
+        </tfoot>
+    </table>
+</section>
 <section id="Family">
 <h2>Family Background:</h2>
 <h3>He has three siblings:</h3>
@@ -105,9 +114,15 @@
 <article id="contact">
     <h2>Contact me:</h2>
     <p>I'd like to know if there is anything you'd like to say:</p>
-    <form action="https://httpbin.org/get" method="get">
-        <label for="firstname">First Name:</label>
-        <input type="text" name="name" id="firstname" placeholder="Rohit" autocomplete="on" required autofocus>
+     <form action="https://httpbin.org/get" method="get">
+        <p>   
+            <label for="firstname">First Name:</label>
+            <input type="text" name="name" id="firstname" placeholder="Rohit" autocomplete="on" required autofocus>
+        </p>
+    <p>
+        <label for="lastname" > Last Name:</label>
+        <input type="text" name="lastname" id="lastname" required autocomplete="on" >
+    </p>
     </form>
 </article>
 <hr>
