@@ -123,4 +123,20 @@ Some more attributes that can be or should be given to input are:
 'required' and 'autofocus'
 Required can 
 Autofocus can only be assigned or as used as attribute for only one element or input on the page.
+Another attribute you can add is pattern specially for getting numbers
 Input tag doesn't have any input closing tag
+Some of the input types are: text,password,tel(number),number with scrolling options
+We can add a 'min' value attribute and 'max' value attribute for defining a range and also give a 'step' attribute to give the interval 'value attribute to get the minimum value dispalyed.
+Syntax of it:
+<!-- <input type="number" name="year" id="birthday" min="1965" max="2021" step="1" value="2001">  -->
+You can also use "Select" attribute to give a list of options to choose from
+Syntax:
+<!-- <select name="" id="same as label">
+<optgroup label="Group Name">
+<option value="anything"> Type your option here </option>
+<option value="anything"> Type your option here </option>
+<option value="anything"> Type your option here </option>
+</select> -->
+option is nested inside select element to provide the options or list
+You can use a element called "optgroup" to create or list the options under a certain group
+The label attribute in optgroup is actually visible to the User.

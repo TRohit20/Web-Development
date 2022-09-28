@@ -123,6 +123,38 @@
         <label for="lastname" > Last Name:</label>
         <input type="text" name="lastname" id="lastname" required autocomplete="on" >
     </p>
+    <p>
+        <label for="number">Phone Number:</label>
+        <input type="tel" name="phone" id="number" required pattern="[0-9]{5}-[0-9]{5}">
+    </p>
+    <p>
+        <label for="birthday"> Enter your Birth Year:</label>
+        <input type="number" name="year" id="birthday" min="1965" max="2021" step="1" value="2001">
+    </p>
+    <p>
+        <label for="movie">Select your favourite movie:</label>
+        <select name="movie" id="movie">
+            <optgroup label="Telugu">
+            <option value="telugu">Jathi ratnalu</option>
+            <option value="telugu">Dhee</option>
+            <option value="telugu">DJ TIllu</option>
+            <option value="telugu">KGF 2</option>
+        </optgroup>
+        <optgroup label="Hindi">
+            <option value="hindi">Khatta Meeta</option>
+            <option value="hindi">Phir hera pheri</option>
+            <option value="hindi">Khoobsurat</option>
+        </optgroup>
+        <optgroup label="other">
+            <option value="tamil">Theri</option>
+            <option value="english">Avengers: Endgame!</option>
+        </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+    </p>
     </form>
 </article>
 <hr>
