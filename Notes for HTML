@@ -143,3 +143,14 @@ The label attribute in optgroup is actually visible to the User.
 Another way of presenting the options to user is using the list attribute in input tag and using datalist
 We surround any inputs and labels using fieldset and legend
 Fieldset creates borders or box around the input and legend tag displays what is being given as input or data inside 
+We can add many types of inputs for list like radio or checkboxes.
+Multiple checkboxes can be selected at once
+You can use text area element or tag to create a box to enter text or details 
+text area is another type of input
+Now, how does the user submit the data to us?
+We use the submit button or button element to create a button element
+We can also add a reset button.
+We can set another button that can be used to post the content.
+We need to add atttributes like formaction,formmethod
+Syntax:
+<!-- <button type="submit" formaction="mention the server" formmethod="post">Post </button> -->

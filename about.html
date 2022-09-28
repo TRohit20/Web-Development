@@ -198,10 +198,19 @@
         <label for="Birds">Birds</label>
     </p>
 </fieldset>
+<fieldset>
+    <legend>Give me your feedback:</legend>
+    <label for="message">You can type your text here:</label>
+    <br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="type your feedback here."></textarea>
+</fieldset>
     <p>
         <label for="password">Password:</label>
         <input type="password" name="password" id="password" required>
     </p>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
     </form>
 </article>
 <hr>
