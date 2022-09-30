@@ -35,3 +35,38 @@ It can be enforced using '#'
     property: value;
 } -->
 It is redundant, cannot be used for many components or difficult to use for all components
+
+CSS has multiple ways to combine selectors in order to make your selectors more specific
+1. First way:
+Eg: You want to select a class X and ID y
+.x#y {
+    color: blue;
+    font-sizze: ;
+}
+<!-- .selector-1.selector-2 {
+    property: value;
+} -->
+You can do this as many times as you want
+2. Second way: 
+Use multiple selectors to specify the ancestor of an element
+Eg: You want all P tags inside of Div:
+div p {
+    property: value;
+}
+<!-- .ancestor .child {
+    property: value;
+} -->
+You can combine the above two selectors too.
+3. Last common selectors combination is to share set of style properties and values between multiple selectors
+Suppose you have a class A and class B that both have the same property and same value,
+THen you can combine by using a comma:
+<!-- .A, .B {
+    property: value;
+} -->
+This allows us to avoid duplication.
+4. The everything selector: Used to select every elemnt in the entire webpage
+Usually used for Fonts of the webpage or some defaults.
+It is done using *
+<!-- * {
+    font-size: 10px;
+} -->
