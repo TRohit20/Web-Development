@@ -3,3 +3,19 @@ It gives a page visuals and all the styling
 It is basically the visual features of a webpage
 It used together HTML and used to design webpages
 It saved with .css extension and linked to a HTML page
+CSS is linked to HTML by using a anchor link in the HEAD part of HTML page
+<!-- <head>
+<a rel="stylesheet" href="location of css" type="text/css">
+</head> -->
+how to test a CSS file? Simply make any changes like adding some properties or just anything and see if it reflects, if it does not then there's soemthign wrong.
+The usual Syntax of CSS is:
+<!-- Selector {
+    property1: value;
+    property1: value;
+    property1: value;
+} -->
+CSS Selectors: VVVVV Important 
+HTML and CSS are not exactly linked so you cannot expect changes or styling to takeplace appropriately. 
+HEnce we use selectors, they are a way of GRABBING and MANIPULATING HTML
+There are differnet ways, different types and each used for differnet reaoson. But they all turn out pretty much the same
+1. Element Selector: 
