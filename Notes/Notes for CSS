@@ -70,3 +70,37 @@ It is done using *
 <!-- * {
     font-size: 10px;
 } -->
+
+HOW TO LOAD CSS?
+1. Inline styling in HTML - Worst way to style webpage
+2. Adding a style element in the Head element of the HTML page but its still bad 
+3. Use seperate CSS file and link it to HTML
+
+Element Selectors are the lowest level selectors in CSS so mostly overwritten. 
+Class can only be overridden by ID
+ID is the highest level
+Number of elements matter if same then the level of selectors comes in to play
+In line styling will override anything though
+
+How to define colours?
+We define colours by either typing the color or choosing from RGB or by mentioning the HexaDecimal nos
+<!-- #FFFFFF   || Since we are using Hexadecimal, it takes 0-9 and A-F(10-16)
+here, each 2 digits represent a colour.
+FF-- RED, FF-- GREEN, FF-- BLUE -->
+Transparency is given in the same way except for we add two more digits 
+<!-- 000000FF -- Full opac
+00000000 -- Fully transparent -->
+hs1 stands for HUE SATURATION :
+Eg:
+<!-- hs1: (0,100%,50%,1) -->
+
+Let us style a BOX:
+We need to call the class or ID and then specify the styling of box as below syntax:
+<!-- .class {
+    height: value;
+    width: value;
+    padding: value;
+    margin: value;
+    border: value;
+    background-colour: value;
+} -->
