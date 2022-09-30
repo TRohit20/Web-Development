@@ -18,4 +18,20 @@ CSS Selectors: VVVVV Important
 HTML and CSS are not exactly linked so you cannot expect changes or styling to takeplace appropriately. 
 HEnce we use selectors, they are a way of GRABBING and MANIPULATING HTML
 There are differnet ways, different types and each used for differnet reaoson. But they all turn out pretty much the same
-1. Element Selector: 
+1. Element Selector: Selects a element and takes value or styles them
+<!-- EG: h1 {
+    color: blue;
+} -->
+2. Class Selector: Lets you select HTML element based on their class attribute.
+In order to select using a class element , we need to use a '.'(period) prior to it.
+<!-- .class_name {
+    property: value;
+} --> 
+Used for reusuable components
+Class selector is the most used
+3. ID Selector: Similar to class selector but it allows you to select elements using the ID attribute since a ID is unique acroos the webpage.
+It can be enforced using '#'
+<!-- #id {
+    property: value;
+} -->
+It is redundant, cannot be used for many components or difficult to use for all components
