@@ -71,6 +71,38 @@ It is done using *
     font-size: 10px;
 } -->
 
+TYPES OF SELECTORS:
+1. Universal (*) : Selects all elements on the page
+2. type (element_type) : Selects all elements of that elemetn type
+3. ID, Class and Element selector:  Refer above, covered in detail
+Refrain from using ID selector as only one ID selector can be used in one webpage  
+
+Selector Combinators atleast the common ones are mentioned above already.
+4. What if you want to do something nuanced and more specific? Like selecting elements inside a element?:
+Eg: You want all li elements inside the ul tag:
+<!-- ul li { // Here we give space bw the elements
+    property: value;
+}  -->
+5. We can also use '>' in order to get the direct child: It only selects the direct child of the element or selector
+6. Siblings Selectors: It gives the sibling of an element,
+What is a sibling? all elements inside a tag for example:
+<!-- <body>
+<nav> 
+<ul> 
+<li> <li>
+</ul> 
+</body>
+Here all the elements or tags inside body are siblings of Body-->
+How to use sibling selector in CSS?
+<!-- element.class ~ element{  // we use '~'Gets all siblings after the element
+    property: value;
+} -->
+What if you just want one sibling?
+<!-- element.class + element{ // we use + to get just the direct sibling
+    property: value;
+} -->
+
+
 HOW TO LOAD CSS?
 1. Inline styling in HTML - Worst way to style webpage
 2. Adding a style element in the Head element of the HTML page but its still bad 

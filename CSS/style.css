@@ -10,7 +10,7 @@ h1 {
     background: yellow
 }
 #info {
-    background: darkcyan !important;
+    background: darkcyan !important;    
 }
 /* 0,1,0,0 */
 #info {
@@ -23,4 +23,16 @@ h1 {
     margin: 10px;
     border: 5px solid green;
     background-color: aquamarine;
+}
+.nav li {
+    background-color: antiquewhite;
+}
+.schedule > h2 {
+    color:green;
+}
+li.sibling + li {
+    background-color:aquamarine;
+}
+li.sibling ~ li {
+    background-color:aquamarine;
 }
