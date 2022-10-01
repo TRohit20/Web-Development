@@ -36,3 +36,9 @@ li.sibling + li {
 li.sibling ~ li {
     background-color:aquamarine;
 }
+li:hover {
+    background-color: white;
+}
+.nav li:nth-last-child(n-1){
+    background-color:beige;
+}

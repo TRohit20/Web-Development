@@ -102,6 +102,35 @@ What if you just want one sibling?
     property: value;
 } -->
 
+7. PSUEDO CLASSES: Given by ':' 
+(20% of the CSS we usually write)
+These are ways to style elements based on how the user interacts with a page.
+Hover selector:
+let us say you want a certain element to hover when user clicks or hovers on them
+<!-- element:hover {//body } -->
+Similarly, we can use focus psuedo selector to focus on something based on user's intercation with the page
+Another whole psuedo class of psuedo classes which have to do with where the elements on page are placed like first child,second child or etc
+<!-- Eg: element:first-child
+it only selects the first child but not wrt selector but according to actuality
+Some other examples are: last child nth last child or only children etc -->
+Some other selectors are 'first-of-type' or 'last-of-type' or 'only-of-type'
+
+The last but most POWERFUL psuedo class is the NOT psuedo class:
+<!-- Syntax: element:not(can pass any selector in here) 
+It means you wanna select any element that does not match your selector. 
+-->
+
+8. PSUEDO ELEMENTS: Given by '::'
+Only two psuedo elements i.e After and Before.
+<!-- Syntax:
+element.class::before/after {
+    content: 'before/after';
+    property: value;
+} -->
+
+9. Attribute Selectors:  
+Much less common but powerful usecases
+
 
 HOW TO LOAD CSS?
 1. Inline styling in HTML - Worst way to style webpage
@@ -167,3 +196,4 @@ In use cases, Using important is difficult esspecially to work around so try avo
 When it comes to actual specificity, Things that do not effect it are actually the other selectors such as direct sibling or so on.
 Only class,ID, In-line and element selectors and combinators matter.
 You can debug or know your specificityu= using the "Inspect Element" option 
+
