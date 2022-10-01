@@ -104,3 +104,34 @@ We need to call the class or ID and then specify the styling of box as below syn
     border: value;
     background-colour: value;
 } -->
+Specificity: 
+CSS reads top to bottom so if two values for same tag and proeoprty are given. The one at the bottom or last will be executed(Will override the initial one).
+Points:
+Class is more specific than element
+ID is more specific than Classes
+In-line styling has the highest specificity
+<!-- Eg: 1,0,0,0 means inline element
+0,1,0,0 here, 2nd column is ID, third is class and last is element
+0,0,1,0 
+0,0,0,1
+Let's say there is no line element or the 1st column of all specificity is 0
+then CSS moves to next column, the one with 1 will be specified or executed
+if even all 2nd columns are zero we goto 3rd column and so on. 
+But if there are say two selectors, the one which is larger is executed
+Eg: 0,0,1,1 and 0,0,1,0
+Although the first columns are same, the first one is larger so that will be having higher specificity
+This is how CSS determines the specificity -->
+one way to get around specificity though is by using the 'Important' keyword
+It creates a own level of specificity like a 5th level
+Syntax: 
+<!-- 1,0,0,0,0 
+    .class {
+    property: value !important;
+} -->
+'Important' keyword essentially overrides all specificity. 
+But it follows other specificity rules
+(Look at code for demonstration)
+In use cases, Using important is difficult esspecially to work around so try avoiding it
+When it comes to actual specificity, Things that do not effect it are actually the other selectors such as direct sibling or so on.
+Only class,ID, In-line and element selectors and combinators matter.
+You can debug or know your specificityu= using the "Inspect Element" option 

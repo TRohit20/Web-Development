@@ -1,12 +1,18 @@
 body {
     background:lightblue;
 }
+/* 0,0,0,1 */
 h1 {
     color: rgb(25, 6, 3)
 }
-/* .testingcss {
+/* 0,0,1,0 */
+.testingcss {
     background: yellow
-} */
+}
+#info {
+    background: darkcyan !important;
+}
+/* 0,1,0,0 */
 #info {
     background: yellowgreen
 }
