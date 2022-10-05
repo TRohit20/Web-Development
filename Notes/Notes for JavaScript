@@ -1,6 +1,7 @@
 // is used as inline comment. We all know what comments are. They dont change or effect anuthing. They are just text
 /* */ is used for multiple line comment
 You end all lines in JS with a semicolon
+JavaScript is a dynamically functioning language.
 
 Data types and variables:
 7 types are available.
@@ -82,3 +83,16 @@ You can also concatenate strings with variabels too.
 Eg:
 <!-- var name = "Rohit"
 var sentence ="My name is " + name + " This is a test"-->
+
+Finding the length of string. 
+We do it using the .length
+<!-- var name = "Rohit"
+console.log(name.length) -->
+
+Bracket notation is a way to get the character at any given index:
+Eg:
+<!-- var name = "Rohit"
+console.log(name[0]) -->
+
+Strings are counted from 0 index 
+Strings are immutable in javaScript meaning they cannot be modified. 
