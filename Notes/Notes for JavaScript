@@ -35,3 +35,50 @@ a=10; //this is the initialisation
 var b =2 //this is both declaration and initialisation -->
 
 Console.log allows you to see things in the console
+
+Variable and Function names in JS are case sensitive i.e capitalisation matters
+
+Arthmetic operations on numbers is done simply by using the operators. 
+incrementing and decrementing 
+Decimal numbers can also be created or aka Float Numbers. Anything number with a point will be taken as decimal number
+Arthmetic operations on decimal nos is the same as on normal or integer numbers
+Finding a remainder is also done by using the modulus operator. (%)
+
+Compound assignment with augmented arthmetic operations:
+Eg:
+<!-- Eg: a = a+10 can be written as a+=10 -->
+
+Declare string variables:
+Anything declared or initialised using the '' or "" or chars or sequence of chars
+<!-- var name="Rohit" -->
+Escaping literal quotes in string:
+This is used when you want to use quotes inside the string declaration. 
+It is done using the '\' before the quotes
+<!-- "this is a "double quotes" inside of a "double quotes" "
+"this is a \"double quotes\" side of a \"double quotes\" " -->
+(OR)
+Quoting strings with single quotes 
+<!-- 'this is a "exampple" of "escaping double quotes" ' -->
+
+Escaping Sequences in strings:
+1. \' single quote
+2. \" double quote
+3. \\ backslash
+4. \n new line
+<!-- Eg: var sentence = "Thisis the first line \n \t \\This is second \n \t Third line -->
+5. \r carriage return 
+6. \t tab
+7. \b backspace
+8. \f form feed
+
+Concatonating Strings with '+' operator
+<!-- var string = "iam rohit" + " This is concatenation example -->
+
+You can also concatenate using the plus equals operator:
+<!-- var string = "RoHIT"
+string += is a gentleman -->
+
+You can also concatenate strings with variabels too.
+Eg:
+<!-- var name = "Rohit"
+var sentence ="My name is " + name + " This is a test"-->
