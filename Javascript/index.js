@@ -25,3 +25,6 @@ console.log(string)
 var name = "Rohit"
 var sentence ="My name is " + name + " This is a test"
 console.log(sentence);
+
+console.log(name.length)
+console.log(name[0])
