@@ -202,3 +202,16 @@ When it comes to actual specificity, Things that do not effect it are actually t
 Only class,ID, In-line and element selectors and combinators matter.
 You can debug or know your specificityu= using the "Inspect Element" option 
 
+FlexBox is very important. 
+Flexbox Container: It is mainly only to provide spacing and alignment to the box items inside.
+There are two main things to keep in mind when using flexbox
+1. Main Axis - Horizontal, Justify property is used
+2. cross Axis - Vertical
+According to these, we can align items of a flex box items inside a flexbox container. We align them accordingly using the 
+justify-content and align-items property
+
+Another property is 'Align-content' But this is only for using multiple line flexbox
+
+'Flex wrap' is used to create responsiveness or wrap the contents of flexbox as the size of the browser decrease or increase
+
+Order is a property used inside box-items to determine the order of them inside the container but it is recommended not to use it.

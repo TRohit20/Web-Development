@@ -42,3 +42,8 @@ li:hover {
 .nav li:nth-last-child(n-1){
     background-color:beige;
 }
+
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+}
