@@ -9,7 +9,9 @@ I will be updating the repository from time to time with my notes and sample cod
 Sample code also contains comments to explain the working of differnet elements, tags and their implementations. 
 I will keep updating the repository with resources and learnings from time to time. 
 
-Projects-Specific repositories with respect to web development will be available soon and linked here.
+You learn by doing. That is my approach. I have project specific repositories up on my profile now that you can check out.
+The project repositories are well commented to give you a good idea of how, why and where certain elements and functionalities are used. 
+
 
 Feel free to correct or contribute!
 Happy learning. Take care! :)
