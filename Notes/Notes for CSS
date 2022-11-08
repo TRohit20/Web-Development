@@ -137,6 +137,8 @@ tag_name[attribute=value]{
     property: value;
 } -->
 
+*** Marigin is for spacing outside the elements or boxes, padding is for inside.
+
 HOW TO LOAD CSS?
 1. Inline styling in HTML - Worst way to style webpage
 2. Adding a style element in the Head element of the HTML page but its still bad 
